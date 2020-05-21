@@ -15,10 +15,12 @@ depends: [
   "lwt_log"
   "react"
   "zed"   {>= "3.0.0" & < "4.0"}
-  "camomile" {>= "1.0.1"}
   "lwt_react"
   "mew_vi"  {>= "0.3.0" & < "1.0.0"}
   "dune" {>= "1.1.0"}
+  "uucp"
+  "uunf"
+  "uchar" { ocaml-version < "4.03" }
 ]
 synopsis: "Terminal manipulation library for OCaml"
 description: """
